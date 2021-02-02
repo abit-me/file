@@ -1,0 +1,8 @@
+aclocal
+autoheader
+automake --add-missing
+autoconf
+./configure --enable-fsect-man5
+make
+
+cp magic/magic.mgc ..
